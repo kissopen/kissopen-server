@@ -1,0 +1,17 @@
+{
+  "name": "kissopen-server-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.28.1",
+  "scripts": {
+    "build": "pnpm --filter @kissopen/kissopen-wire build && pnpm --filter kissopen-server build && pnpm --filter kissopen-server-self-host build:runtime && pnpm build:accounts",
+    "build:accounts": "cd accounts && go build -o ../dist/kissopen-accounts ./cmd/kissopen-accounts",
+    "typecheck": "pnpm --filter @kissopen/kissopen-wire typecheck && pnpm --filter kissopen-server typecheck",
+    "test": "pnpm --filter @kissopen/kissopen-wire test && pnpm --filter kissopen-server test && cd accounts && go test ./... && go vet ./...",
+    "relay:migrate": "pnpm --filter kissopen-server migrate",
+    "relay:start": "pnpm --filter kissopen-server serve",
+    "accounts:start": "cd accounts && go run ./cmd/kissopen-accounts",
+    "audit:source": "node scripts/audit-source.mjs",
+    "smoke": "node scripts/smoke-relay.mjs"
+  }
+}

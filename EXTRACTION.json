@@ -1,0 +1,1102 @@
+{
+  "projectName": "kissopen-server",
+  "sourceProject": "kissopen",
+  "historyIncluded": false,
+  "published": true,
+  "repository": "https://github.com/kissopen/kissopen-server",
+  "releaseReady": false,
+  "sourceSnapshot": [
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/api.ts",
+      "destination": "packages/kissopen-server/sources/app/api/api.ts",
+      "sha256": "e0296ca9826c660b06d72e269ec6dfa27811c97154611e3e95508797f029f95f"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/publicLocalFilePath.spec.ts",
+      "destination": "packages/kissopen-server/sources/app/api/publicLocalFilePath.spec.ts",
+      "sha256": "a63e909ec30c29a8c1710ae581ca01dda84b06535ce67f8d6d1d0de8b2af0b9c"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/publicLocalFilePath.ts",
+      "destination": "packages/kissopen-server/sources/app/api/publicLocalFilePath.ts",
+      "sha256": "aaea7e0246b05542ab1a571acf365a073a8d8e8c947eb0c8c9e82e4256f36120"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/SESSION_AVATARS.md",
+      "destination": "packages/kissopen-server/sources/app/api/routes/SESSION_AVATARS.md",
+      "sha256": "c4be27248e0e0f200891d1ab9421ddcf4b6373424bbc4fa2d81f9373b662b426"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/accessKeysRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/accessKeysRoutes.ts",
+      "sha256": "c892f11f1eefa0dab03e44f018927769e0a110794725ae8b91588e416f50f2c1"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/accountRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/accountRoutes.ts",
+      "sha256": "b1184b3c12f1f25be6f87e7c6652c222291aab4c152031c0344ff43b078e8d1b"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/artifactsRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/artifactsRoutes.ts",
+      "sha256": "7d890559e9631bef8404b252674734ca34f8fc7f74e113d5aa7704d8c5cf1a52"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/attachmentRoutes.spec.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/attachmentRoutes.spec.ts",
+      "sha256": "d6880396626ed652292ec9d816e07790b4bf3ad77609e1578d04017cc9d8563b"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/attachmentRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/attachmentRoutes.ts",
+      "sha256": "d93a70cc776c03dc629de9be41de7677f3506ff1ffae9d35c5d7e30bc87629f8"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/authRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/authRoutes.ts",
+      "sha256": "c9b6da7c5a9b8fa6b7859dd4fa55605bee20a9341532e69f3589cd2538285138"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/communityAuthRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/communityAuthRoutes.ts",
+      "sha256": "381f70b0c44e17ded007e8d9e33559f870d7de155a0eeacace6ae1d23b3ac28f"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/connectRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/connectRoutes.ts",
+      "sha256": "22f47575b9732f0845fc8d5555fb2987960e58a50b46252ea78661549e004c03"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/devRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/devRoutes.ts",
+      "sha256": "7d7a0eb0291e8f34e18dc09b722ba95a015482560c9c9657551fe7026c6978c7"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/feedRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/feedRoutes.ts",
+      "sha256": "fca0f87d6ef1dd845a8b1c26120aca8decaeda8c9419389ddd350f0dbfaa5e3d"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/kvRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/kvRoutes.ts",
+      "sha256": "80b7af59e7d2537ebe3299251e4b96252dd5c9d189db8c7df3e1a5109d5fbe8d"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/machinesRoutes.spec.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/machinesRoutes.spec.ts",
+      "sha256": "34fd506042736719fbdac669004a812ade51d31253c861bf0bfab064f0165cdf"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/machinesRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/machinesRoutes.ts",
+      "sha256": "483168dadebe6d07b8aa8896147f013cf596415130146abd6b33be8123c9b42b"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/projectRoutes.spec.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/projectRoutes.spec.ts",
+      "sha256": "ceb6e5e3ff9cc6a983e8b210ce0ad49d69092a5a972020dc8190971acd4d903e"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/projectRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/projectRoutes.ts",
+      "sha256": "26b85db61920b8846eec42b90898ed9d783c17a596716e2263c7578946dbb750"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/pushRoutes.spec.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/pushRoutes.spec.ts",
+      "sha256": "e2daf74658023ed8d877e9fa86e3c7fc8129d36e69475c51608c080ce16abba5"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/pushRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/pushRoutes.ts",
+      "sha256": "781fc06d4b627a56a2a3b1ace014be7afc80d1e7bda9354e31282bb00d28c7bd"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/sessionAvatarRoutes.spec.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/sessionAvatarRoutes.spec.ts",
+      "sha256": "fdcc7bb0df29f583bee6c0bb31d60525cedfeb073c0d75a3f1b08d930b272c97"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/sessionAvatarRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/sessionAvatarRoutes.ts",
+      "sha256": "9228cb59261a529dd8cace598721bf50c4d68e85f9dfbcb46e2ab36c3822fe55"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/sessionRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/sessionRoutes.ts",
+      "sha256": "396f7ab0ae1dc4d8d32f1b6cdb30ad6926c74995a381e10f9cacd838bf30fa0a"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/userRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/userRoutes.ts",
+      "sha256": "e3c4ed1fd241bb398a573dfc442302efd4d826658155e503f509b2a904b3ee11"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/v3SessionRoutes.test.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/v3SessionRoutes.test.ts",
+      "sha256": "fb52d4145ef64741f779e15cb9c1d2e29873cd5485e186bb0b1bd6543ff2e8f5"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/v3SessionRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/v3SessionRoutes.ts",
+      "sha256": "3daa04242a87202ef908c902b15a36c9a05e69744088cbb09fd0e4658d93739c"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/versionRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/versionRoutes.ts",
+      "sha256": "166b740f94d51e172726a79b3898e6acf97bc243ad679fdfdf5e007648d58d7f"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/routes/voiceRoutes.ts",
+      "destination": "packages/kissopen-server/sources/app/api/routes/voiceRoutes.ts",
+      "sha256": "1f9f34f816342957dc63024aaa632a4707b7e9b0313af60043b0fff74a52b452"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/socket/accessKeyHandler.ts",
+      "destination": "packages/kissopen-server/sources/app/api/socket/accessKeyHandler.ts",
+      "sha256": "19211ff9655c92efa72f8c08f52ba77abd424431f6f6f26ba29ec69f846d7ab4"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/socket/artifactUpdateHandler.ts",
+      "destination": "packages/kissopen-server/sources/app/api/socket/artifactUpdateHandler.ts",
+      "sha256": "56808c54cf5ae54d8c750cc5403f6dcab7331792f6d7c242ee5b59719414542c"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/socket/machineUpdateHandler.ts",
+      "destination": "packages/kissopen-server/sources/app/api/socket/machineUpdateHandler.ts",
+      "sha256": "1c92b44ab5cc55e81aa3478564070c438d82ca269d643efb7bd7853e88bfe539"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/socket/pingHandler.ts",
+      "destination": "packages/kissopen-server/sources/app/api/socket/pingHandler.ts",
+      "sha256": "cc8f3ed3def885e16aac3dbd54fed6a2d643c11d18bdbed76907112613dfd462"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/socket/rpcHandler.ts",
+      "destination": "packages/kissopen-server/sources/app/api/socket/rpcHandler.ts",
+      "sha256": "e0b448b867122f87f8a1e16d51e4b39468de0099d881f41a117758b07c6c126e"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/socket/sessionUpdateHandler.ts",
+      "destination": "packages/kissopen-server/sources/app/api/socket/sessionUpdateHandler.ts",
+      "sha256": "cc6c014b462a5efb58ff892d5319541b3d454812e01c0b8189f8c3cd13d97a06"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/socket/streamHandler.ts",
+      "destination": "packages/kissopen-server/sources/app/api/socket/streamHandler.ts",
+      "sha256": "f30f16b8011210befbc116ad18ad9b46e352113a5c6af6fc0336712f17e168cb"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/socket/streamOrder.spec.ts",
+      "destination": "packages/kissopen-server/sources/app/api/socket/streamOrder.spec.ts",
+      "sha256": "3446be114a55dae8709deda117053b93b58e486de6496f4a54abc790a246086c"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/socket/streamRegistry.spec.ts",
+      "destination": "packages/kissopen-server/sources/app/api/socket/streamRegistry.spec.ts",
+      "sha256": "93f8953c2faca416afd8437a88281b4bf1b6f6af195d88783c5f6ac7f1894dad"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/socket/streamRegistry.ts",
+      "destination": "packages/kissopen-server/sources/app/api/socket/streamRegistry.ts",
+      "sha256": "95578782d6082128ad466c5ac7fd3fc3e6bd53aec4e805a2f8b66e8743fe27ba"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/socket/usageHandler.ts",
+      "destination": "packages/kissopen-server/sources/app/api/socket/usageHandler.ts",
+      "sha256": "0c542525559a384ff344ac8b54df1d3d94d5ab8adfdc7d46fb2c9365140677eb"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/socket.ts",
+      "destination": "packages/kissopen-server/sources/app/api/socket.ts",
+      "sha256": "aad89404452deacf1cb84a8fdc818ea4486706d14ef6d4a3521340b22aec67e6"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/types.ts",
+      "destination": "packages/kissopen-server/sources/app/api/types.ts",
+      "sha256": "f94267bbe543ef6b2557a4f61dcea14cfdfe7c09e9eefa2f86a4f2a33e7f3731"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/utils/enableAuthentication.ts",
+      "destination": "packages/kissopen-server/sources/app/api/utils/enableAuthentication.ts",
+      "sha256": "2c84e9e61b326c59998f299ef0fd389849436203ec7463b03cfee7e9bd6ab253"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/utils/enableErrorHandlers.test.ts",
+      "destination": "packages/kissopen-server/sources/app/api/utils/enableErrorHandlers.test.ts",
+      "sha256": "84505f3c71f806765a196a97d014213cb57d530c290804d030eac08a044a1f6f"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/utils/enableErrorHandlers.ts",
+      "destination": "packages/kissopen-server/sources/app/api/utils/enableErrorHandlers.ts",
+      "sha256": "127fd40388f7a28e3f03c15b996fdf2a92c1576361058302be3ccb56f0cc5abf"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/api/utils/enableMonitoring.ts",
+      "destination": "packages/kissopen-server/sources/app/api/utils/enableMonitoring.ts",
+      "sha256": "63e36499d69cd2b84d6d643de2655555d748e7cb36d1d91197841cdb0148e501"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/auth/auth.ts",
+      "destination": "packages/kissopen-server/sources/app/auth/auth.ts",
+      "sha256": "5caf5201f55b86258817d9cd19d7bbd1b8b26d0e03548e4b19e12f3474b50e35"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/auth/communityAuthPage.ts",
+      "destination": "packages/kissopen-server/sources/app/auth/communityAuthPage.ts",
+      "sha256": "114b77a08d8239b7e761b66704ec99c8378062a23ddd7eba0cae5975c19ec12f"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/auth/communityProviders.ts",
+      "destination": "packages/kissopen-server/sources/app/auth/communityProviders.ts",
+      "sha256": "7e81e428c72ab23fc6dd65359983aed01da38d09f80e293e6f7afdd5095e6f31"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/events/eventRouter.spec.ts",
+      "destination": "packages/kissopen-server/sources/app/events/eventRouter.spec.ts",
+      "sha256": "25c1357a41d4517f0fb1dafd39d27be5df02fa72aaaa64a844e228e1b08bca7d"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/events/eventRouter.ts",
+      "destination": "packages/kissopen-server/sources/app/events/eventRouter.ts",
+      "sha256": "2cf17cef4c7d3e2f665b63c529e5cf01d56646780804acf8d853d76d4f65fd1e"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/feed/feedGet.ts",
+      "destination": "packages/kissopen-server/sources/app/feed/feedGet.ts",
+      "sha256": "f46121270700cf89bd8131c282414ba037ef275ac37c8facbbc6c7fd7c2ca254"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/feed/feedPost.ts",
+      "destination": "packages/kissopen-server/sources/app/feed/feedPost.ts",
+      "sha256": "ec90f044216a74f212b02dbdf6d813ff017f239bb20eac4a7e5250e95b7cc5f2"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/feed/types.ts",
+      "destination": "packages/kissopen-server/sources/app/feed/types.ts",
+      "sha256": "756a903195a251a5c88f249d41d75e8e53996ca07b95b1e4c013c4577950e0a2"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/github/githubConnect.ts",
+      "destination": "packages/kissopen-server/sources/app/github/githubConnect.ts",
+      "sha256": "74596e869e0baa2badcc7b25527d47d153a352d65c2cc117621244d680d739b2"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/github/githubDisconnect.ts",
+      "destination": "packages/kissopen-server/sources/app/github/githubDisconnect.ts",
+      "sha256": "fd11e36521df0ce8d4ca022247d13d7ff368e8c0ed508f5285039e9cf6af53a6"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/kv/kvBulkGet.ts",
+      "destination": "packages/kissopen-server/sources/app/kv/kvBulkGet.ts",
+      "sha256": "5e3b67fedcae1ae623c586d4cc2a576764204df39a3968a116fa68ba6107cec5"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/kv/kvGet.ts",
+      "destination": "packages/kissopen-server/sources/app/kv/kvGet.ts",
+      "sha256": "ad0c385ab91a00d2bfad01e8955d8510480724325508f6abffd336ca23ee3424"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/kv/kvList.ts",
+      "destination": "packages/kissopen-server/sources/app/kv/kvList.ts",
+      "sha256": "2915b518b305a4bd222b0c8849c812ea6dc84698f143543621b94314b61e96de"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/kv/kvMutate.ts",
+      "destination": "packages/kissopen-server/sources/app/kv/kvMutate.ts",
+      "sha256": "07e83c1b27ffe6056f2cc338adca777a59b6e6cf394d4d60e985c06536ccd6f5"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/monitoring/metrics.ts",
+      "destination": "packages/kissopen-server/sources/app/monitoring/metrics.ts",
+      "sha256": "3c6bdc1ef46e268dafb3ce4f26506779f2fd3a97aedba3ac70d1587ad40ed02f"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/monitoring/metrics2.test.ts",
+      "destination": "packages/kissopen-server/sources/app/monitoring/metrics2.test.ts",
+      "sha256": "1ec2ee4b3a36a3bdf7627cae390bbbfd8e9789c1fc62721db1e90f3cbc9fb517"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/monitoring/metrics2.ts",
+      "destination": "packages/kissopen-server/sources/app/monitoring/metrics2.ts",
+      "sha256": "c9d7c6f772cb1f0e323b237f4d1db6e1a144a26bee92034f67cb636646420339"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/monitoring/productionLogSummary.test.ts",
+      "destination": "packages/kissopen-server/sources/app/monitoring/productionLogSummary.test.ts",
+      "sha256": "c5718a441aa538ac5580218ee67b661b6ee470347f0905c7d27a50a94572538a"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/monitoring/productionLogSummary.ts",
+      "destination": "packages/kissopen-server/sources/app/monitoring/productionLogSummary.ts",
+      "sha256": "4b2143d8b3571d96220ba07ef157e0479cba57d678b21d9a737ab6ec2cfc7a80"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/presence/sessionCache.spec.ts",
+      "destination": "packages/kissopen-server/sources/app/presence/sessionCache.spec.ts",
+      "sha256": "483645587be1b05897b7c7cade250e0290e09f01f601793b395a1bbed92123e3"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/presence/sessionCache.ts",
+      "destination": "packages/kissopen-server/sources/app/presence/sessionCache.ts",
+      "sha256": "151f1394514caaf2b19a34eb36d1db4e99042751db779be48c4bdfea51447155"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/presence/timeout.ts",
+      "destination": "packages/kissopen-server/sources/app/presence/timeout.ts",
+      "sha256": "64cdce655ef9a2b44a3aae5eb2dd3e5949a09d99e1a3140d2bfdb3c2e7ed6dca"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/push/focusTracker.ts",
+      "destination": "packages/kissopen-server/sources/app/push/focusTracker.ts",
+      "sha256": "f9810c7ad06b69bd832ce4b9c6ea87c93a16e16e326e8aa3e7470cdc437cf53b"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/push/pushDispatch.ts",
+      "destination": "packages/kissopen-server/sources/app/push/pushDispatch.ts",
+      "sha256": "3b97a0046acd5c35ab06138c4eb62313ea6368009bb633d70e0c5251d46ff484"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/push/pushSend.ts",
+      "destination": "packages/kissopen-server/sources/app/push/pushSend.ts",
+      "sha256": "1a2beafd4e384b026d06c4faf643aa6337520cd37d0edb179611c801c625aa03"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/session/sessionAvatar.spec.ts",
+      "destination": "packages/kissopen-server/sources/app/session/sessionAvatar.spec.ts",
+      "sha256": "8d9affa0a1d787411fe667aee3c42f5a0c79cd6c1e135471c6f3011f80d3cd40"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/session/sessionAvatar.ts",
+      "destination": "packages/kissopen-server/sources/app/session/sessionAvatar.ts",
+      "sha256": "7da1f7f73ab21d239905ad5216074020d5300fcc3e5378e4fe95c70656271211"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/session/sessionAvatarMigration.spec.ts",
+      "destination": "packages/kissopen-server/sources/app/session/sessionAvatarMigration.spec.ts",
+      "sha256": "a5422243627779f12c7fc2f03bb6424a334c6185e1720dbb1f4ea100924ae2df"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/session/sessionDelete.ts",
+      "destination": "packages/kissopen-server/sources/app/session/sessionDelete.ts",
+      "sha256": "3b3fd86c358670a221f64d6bd7b6deda1728141fdf98d497b170f8ca5b5da2e1"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/social/friendAdd.ts",
+      "destination": "packages/kissopen-server/sources/app/social/friendAdd.ts",
+      "sha256": "25f2ace5df4cd7a628c636dc836e312c5731c522b92a36b36a6979b6d069863c"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/social/friendList.ts",
+      "destination": "packages/kissopen-server/sources/app/social/friendList.ts",
+      "sha256": "ea3b2d4a0e75da67246cad5f28e24fe1f8a3402adecc38ebe334c5a684daae4d"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/social/friendNotification.spec.ts",
+      "destination": "packages/kissopen-server/sources/app/social/friendNotification.spec.ts",
+      "sha256": "afda5520a1b19d6ae0c172e40ad7a1f1438d2fceafba33c7ff3c9fa13ad06fe6"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/social/friendNotification.ts",
+      "destination": "packages/kissopen-server/sources/app/social/friendNotification.ts",
+      "sha256": "234b8c1c26db00f048e09f28889f5b4779f66f4639a15284d89750d98bf22600"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/social/friendRemove.ts",
+      "destination": "packages/kissopen-server/sources/app/social/friendRemove.ts",
+      "sha256": "f1ae8ec03562273cafe635afc02a1b063fe9d8cf74f3e1989f4b0610ce382a9c"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/social/relationshipGet.ts",
+      "destination": "packages/kissopen-server/sources/app/social/relationshipGet.ts",
+      "sha256": "abac54950418b743770ec6b284859364cb7e441afe3fccbacfa7d965bd4443af"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/social/relationshipSet.ts",
+      "destination": "packages/kissopen-server/sources/app/social/relationshipSet.ts",
+      "sha256": "4730dbd15e5db42d187beb4c5973ef99ca05ad566b690c7f9c749bfa2ec8ea06"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/social/type.ts",
+      "destination": "packages/kissopen-server/sources/app/social/type.ts",
+      "sha256": "b2cbef337c3e6866e93a97bfbcd49ffef5e0aadff520d99450256bdba4a03884"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/app/social/usernameUpdate.ts",
+      "destination": "packages/kissopen-server/sources/app/social/usernameUpdate.ts",
+      "sha256": "48939214c32fd9b0100080ff3ecac299770cb1893de25161f0ddac6b16a41da5"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/context.ts",
+      "destination": "packages/kissopen-server/sources/context.ts",
+      "sha256": "9dff921f6d5cecfef6e91fa82dd75a9a2c030bb4165cfd9e045824e59fadfc8c"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/index.ts",
+      "destination": "packages/kissopen-server/sources/index.ts",
+      "sha256": "0c2fc3056cd33e0b1edb5cce9734133675f80d22598a74c37afb0081fee1d513"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/main.ts",
+      "destination": "packages/kissopen-server/sources/main.ts",
+      "sha256": "3e235047df8b5e41ebeb85755e627212e6da4a869e1ea86b62a4a3b40cacbdfc"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/modules/encrypt.ts",
+      "destination": "packages/kissopen-server/sources/modules/encrypt.ts",
+      "sha256": "4cabd8beb18ea3bd64218812735a620442f0dde9f311a2681d3e620d4eea9c02"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/modules/github.ts",
+      "destination": "packages/kissopen-server/sources/modules/github.ts",
+      "sha256": "2b109070c9f31ce839870e6ac3de62aa48e49468c14a762286ca7e5c55afe49d"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/recipes/testConvTokenMatch.ts",
+      "destination": "packages/kissopen-server/sources/recipes/testConvTokenMatch.ts",
+      "sha256": "db9d0da935ca9fca2408954fdad72bd10ac1e2142e9d9cb2a0a3fd74cb0ee8ee"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/standalone.spec.ts",
+      "destination": "packages/kissopen-server/sources/standalone.spec.ts",
+      "sha256": "18e01e149554cf0d74e1b7d9dfd5842d06315fb38d9ecc48c7cda66f2c8a2068"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/standalone.ts",
+      "destination": "packages/kissopen-server/sources/standalone.ts",
+      "sha256": "52c35334e722f8824d4bb420661309c146b830cea0a21ba926ded0f837ba2a15"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/storage/db.ts",
+      "destination": "packages/kissopen-server/sources/storage/db.ts",
+      "sha256": "f4219addce9e2b9ee00814fe573eee414a6a688cac5c129be4793f1ecf7d0fae"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/storage/files.ts",
+      "destination": "packages/kissopen-server/sources/storage/files.ts",
+      "sha256": "0c12e9911e7847565e47d74104b25f0e2a6610ed7c293681a74f67020eeb0df4"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/storage/inTx.ts",
+      "destination": "packages/kissopen-server/sources/storage/inTx.ts",
+      "sha256": "9fd2caea2e5a7f6920262133f9c37b1627b9ee9533f152912752f133bddfe2a6"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/storage/pgliteLoader.ts",
+      "destination": "packages/kissopen-server/sources/storage/pgliteLoader.ts",
+      "sha256": "6de4241242c5f205f4aa98873e6d27444fcf780859f934f70551770d77a672a7"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/storage/processImage.spec.ts",
+      "destination": "packages/kissopen-server/sources/storage/processImage.spec.ts",
+      "sha256": "095b4997a8e3e6cdfd487c785697f547dfd57ab7b51afabd4fdbc35e37b57942"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/storage/processImage.ts",
+      "destination": "packages/kissopen-server/sources/storage/processImage.ts",
+      "sha256": "3ead535ed9650247a703f824f60e817445177a5963f80f08d27c5e971ef7941e"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/storage/redis.ts",
+      "destination": "packages/kissopen-server/sources/storage/redis.ts",
+      "sha256": "6b0f4710b4bb5aa3c208c0dcb02f03f68b8eea977812ad4ab4bc07124ab8f15b"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/storage/repeatKey.ts",
+      "destination": "packages/kissopen-server/sources/storage/repeatKey.ts",
+      "sha256": "ffa3e86dd35d9b299a3e6306b66f14d7de409d9bc458013aaeca53ec839a7778"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/storage/seq.ts",
+      "destination": "packages/kissopen-server/sources/storage/seq.ts",
+      "sha256": "7cde34984c4b22144a301fa375dfd16a125b737bdd379094fe422e6f017455d3"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/storage/simpleCache.ts",
+      "destination": "packages/kissopen-server/sources/storage/simpleCache.ts",
+      "sha256": "05ae4a4c42a4fba1c0f37ec1d3779d5678a40859af9faf3b4b4695d4cc9ee025"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/storage/thumbhash.ts",
+      "destination": "packages/kissopen-server/sources/storage/thumbhash.ts",
+      "sha256": "c239e21cb2dac96c4515d6ceffb90ed508b65be713481f998f67e430aeac8dd5"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/storage/types.ts",
+      "destination": "packages/kissopen-server/sources/storage/types.ts",
+      "sha256": "4b7fdd4ce7ad6328deef832dba978a54957583d3d2ae75477746bd2e1b3b7004"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/storage/uploadImage.ts",
+      "destination": "packages/kissopen-server/sources/storage/uploadImage.ts",
+      "sha256": "4ab8390499bea95f2159fc933f9c8e931119d858b20ec79de73075dad0749285"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/types.ts",
+      "destination": "packages/kissopen-server/sources/types.ts",
+      "sha256": "ee29b049ed93094295cb910a81b268833a9ca0eab5e5c336cc6aa585e8e733e8"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/aborted.ts",
+      "destination": "packages/kissopen-server/sources/utils/aborted.ts",
+      "sha256": "525522cd303a1d3590068f34fe4df86717448dd899dae53f57d08deac44ebf58"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/backoff.ts",
+      "destination": "packages/kissopen-server/sources/utils/backoff.ts",
+      "sha256": "14cae300912e8d14d25bcb2be9e2becefc1578461fd33f97f11a697d307028cf"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/delay.ts",
+      "destination": "packages/kissopen-server/sources/utils/delay.ts",
+      "sha256": "37080f0b33779fc7eac97e6d0937091f562ead315c0c22fae9e26b4f3b5824ec"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/forever.ts",
+      "destination": "packages/kissopen-server/sources/utils/forever.ts",
+      "sha256": "2836e995a7a72e1cc025258c5c71293309d764effcc4ff757ef04fc64f7824ba"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/lock.ts",
+      "destination": "packages/kissopen-server/sources/utils/lock.ts",
+      "sha256": "51d4bbddb641a577ff5842dba3bce63e2476de4f382efa06bb524de6fc20f467"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/log.ts",
+      "destination": "packages/kissopen-server/sources/utils/log.ts",
+      "sha256": "35f8f366b2327837182470823143e3829ccd6cf1b784268f3b3ffb686a8bb35a"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/lru.spec.ts",
+      "destination": "packages/kissopen-server/sources/utils/lru.spec.ts",
+      "sha256": "d310ad1430699941a8f57999a60899b4519ef34f9a1107c8021e06ddc0470514"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/lru.ts",
+      "destination": "packages/kissopen-server/sources/utils/lru.ts",
+      "sha256": "3fe0be03f0b69d137bb9e5a9c5ce92dd6c422f4b75b6fae87adfcad833fb1180"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/objects.ts",
+      "destination": "packages/kissopen-server/sources/utils/objects.ts",
+      "sha256": "dea7bf140feaf484821e772424aaf4d949721fbc69a3cd0aeeafff0375aa3aec"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/randomKey.ts",
+      "destination": "packages/kissopen-server/sources/utils/randomKey.ts",
+      "sha256": "6f2e4c55d41cf8adc073feb5bcc9492792bf316b7a4feade86480e2e991fc972"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/randomKeyNaked.ts",
+      "destination": "packages/kissopen-server/sources/utils/randomKeyNaked.ts",
+      "sha256": "64c3037e6547a64c8d161f793a413ff4a229452c01fca3b775f95cfb414441c4"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/separateName.spec.ts",
+      "destination": "packages/kissopen-server/sources/utils/separateName.spec.ts",
+      "sha256": "1872f82839b33f22619e8f2d41eeae9a588f1a91b9765e106a7300300f2741cc"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/separateName.ts",
+      "destination": "packages/kissopen-server/sources/utils/separateName.ts",
+      "sha256": "18110c1c4a244a7b2f1b29a30b45324dd242b3ca2b71a1b2d892abec1e6abe2f"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/shutdown.ts",
+      "destination": "packages/kissopen-server/sources/utils/shutdown.ts",
+      "sha256": "c690ef1bad170f15294f9dfd4c6e966397006e6cb22745e6d0f3be320c89a80e"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/trimIdent.ts",
+      "destination": "packages/kissopen-server/sources/utils/trimIdent.ts",
+      "sha256": "fecbff2b9cd5b945a230abee7176377eb19e8e68102a631ed3229c1a28c11a5d"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/utils/uptime.ts",
+      "destination": "packages/kissopen-server/sources/utils/uptime.ts",
+      "sha256": "45420f9993f6eca0bd0017763ebe21afff8ea9e99e8d25986edbe81198d05294"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/sources/versions.ts",
+      "destination": "packages/kissopen-server/sources/versions.ts",
+      "sha256": "c6400265f4a44ff1162d14bf60199ca22433d29723c2ee6db2b6f1a206e16139"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250713002718_initial/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250713002718_initial/migration.sql",
+      "sha256": "afe7b15d5c7580c37fb167a46b53841fe084c16833986be9ac7326a4483e67ff"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250713004156_add_sessions/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250713004156_add_sessions/migration.sql",
+      "sha256": "37463034c7495d504af854c553e47463096ec3caf89a70cb593389fde950fa26"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250713032124_add_tag_to_session/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250713032124_add_tag_to_session/migration.sql",
+      "sha256": "9fd084845f76cbd8bb943cc499b14b2d86b8f08db6c15bc916e62a29e3654336"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250714030924_add_session_metadata/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250714030924_add_session_metadata/migration.sql",
+      "sha256": "30091cf622ddc55af02fa4c85714999dc1c9c64ef383b55ffada7c67ec45d4c7"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250714032124_session_timeouts/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250714032124_session_timeouts/migration.sql",
+      "sha256": "4e3ec2db3101decf2b5fb8f957879bfd6a671eb857ee55434f3ce61362645abb"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250715012822_add_metadata_version_agent_state/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250715012822_add_metadata_version_agent_state/migration.sql",
+      "sha256": "61b4a2e7ae1511fc8b12933e828256395fae8388f132814a6351688cfc4f8f3c"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250718031550_add_local_id_to_session_message/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250718031550_add_local_id_to_session_message/migration.sql",
+      "sha256": "c9611eba15fc1aaf0c24c4372b53836b50924d13cac65470cd57f9d7f34a27d1"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250718032748_add_push_token/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250718032748_add_push_token/migration.sql",
+      "sha256": "94c98798277c5f174f86fad0e02650ecb4dd141b162f35a5770973ecbd5679bc"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250719042829_add_terminal_auth_request/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250719042829_add_terminal_auth_request/migration.sql",
+      "sha256": "94ae2a81e40f811561b54b991cabbcc68d04c96da2cd90d530cc423055fce0f5"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250719061508_add_response_account/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250719061508_add_response_account/migration.sql",
+      "sha256": "b47856a7009e81ddcdd836ec91bdc2c9fb7f88692ddcc06452b3085eff3764f7"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250721073743_add_usage_report/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250721073743_add_usage_report/migration.sql",
+      "sha256": "38803641be7cbceed040d13a7fa7d2c69875f36adfb7557c0f7877c1f3e62fc1"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250726092110_remove_updates/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250726092110_remove_updates/migration.sql",
+      "sha256": "ad96e1eafa29fe7450a21f66f7dd1526db378d35d2f7989850300415c2de8600"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250726205102_add_settings_to_account/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250726205102_add_settings_to_account/migration.sql",
+      "sha256": "0d42c5c7b544a0eb2aa48330e6e10f16a7782ef9878d353884a3f91b65c751b3"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250726205206_add_account_settings_version/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250726205206_add_account_settings_version/migration.sql",
+      "sha256": "169ddb5d7366162886a95d8264f6e6795d54c7fd9bbf9fab7b16379d6ac3b9b4"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250812092041_add_machine_model/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250812092041_add_machine_model/migration.sql",
+      "sha256": "f59d83818092b809c3f998ddda75a4d96220bb37807f3a318f54925628d03fcc"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250816171155_add_app_to_app_authentication/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250816171155_add_app_to_app_authentication/migration.sql",
+      "sha256": "204db93663756692517a9e4178d0674ceab7693fbf96b4c2552085b6c45b6b8d"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250818044258_add_daemon_state_to_machine/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250818044258_add_daemon_state_to_machine/migration.sql",
+      "sha256": "1c5fa021745e72b31f1c8bbbe6686cf053b26a072e316fc76d0a6d965557bb4e"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250820051609_add_session_id_seq_index/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250820051609_add_session_id_seq_index/migration.sql",
+      "sha256": "1493b4c1545a310fcd4579ba27800baa781fb74e72f35cd9f453333f3e209816"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250820052449_add_session_sort/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250820052449_add_session_sort/migration.sql",
+      "sha256": "f2f5c1dad9a69de87077e49ac0765ccb31fe3134fe79b96b6b02727faed0c78f"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250827015520_add_github_entities/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250827015520_add_github_entities/migration.sql",
+      "sha256": "905e9843f4644d3dc4edcfd03a6d2fdf95417c1d80ead13dd2943708a67aa53c"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250827044624_add_user_profile_fields/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250827044624_add_user_profile_fields/migration.sql",
+      "sha256": "e806d51c74c829d9dc6fbda05502318a28b7ca05be18b397608d12d6a95ccbe1"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250827045037_add_reuse_key_to_file/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250827045037_add_reuse_key_to_file/migration.sql",
+      "sha256": "0417c6737e93c4f442aca5fba9ff6ee3c4919f3182625294753973bdfbc45f91"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250827051355_add_image_parameters/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250827051355_add_image_parameters/migration.sql",
+      "sha256": "b1242cf5a043f06277e72610f72b1c4456534719e1410a644baf06bfd75fbce4"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250901205028_add_service_account_tokens/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250901205028_add_service_account_tokens/migration.sql",
+      "sha256": "7b7955381a2e19593f54c3a28df62c925c3d940c621efa54403b5ae574c69b39"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250908050408_add_data_encryption_key/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250908050408_add_data_encryption_key/migration.sql",
+      "sha256": "58c3eb22b41246c51dfd79280e98f54543dae8b715eda7b5ef54d2b34a7b8e43"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250908052114_add_machine_data_encryption_key/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250908052114_add_machine_data_encryption_key/migration.sql",
+      "sha256": "5dcc9dfe56a18b1696878bd0ab22ebb2b33606892964207b8f227168b9a2284b"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250911030241_add_version2_field/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250911030241_add_version2_field/migration.sql",
+      "sha256": "047eaf5633408378030123d828d663ffb167dccdbfaae3fc9cf8abf4f5396818"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250917052000_add_artefacts/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250917052000_add_artefacts/migration.sql",
+      "sha256": "cf475b55ae1842d4cdb0c350098411f54ac0ea55eaf88fd94021a058e9a72136"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250917055002_add_access_key/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250917055002_add_access_key/migration.sql",
+      "sha256": "c6014c2a89ec2618addd34ce4a876ee816a3e9f4b62d87f9e253d001b2a9a94c"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250918045344_add_friendships/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250918045344_add_friendships/migration.sql",
+      "sha256": "8ed721aded6b0cf6882b1bda2bdadc349e789042b55f10debe1aea9214f3a1d1"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250919021354_fix_relationship_status/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250919021354_fix_relationship_status/migration.sql",
+      "sha256": "3ce1a072ec3b8e60daced5b36fd00ae995a3ac4bbe237689b669c172698a74e2"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250920025406_add_username/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250920025406_add_username/migration.sql",
+      "sha256": "bd5ef1a34ef99c69b4d5eec2d76c793de6d3721052a2314018cc86d0bfffa24a"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250920035415_make_github_user_id_unique/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250920035415_make_github_user_id_unique/migration.sql",
+      "sha256": "cd815eb6d6410979f1d4b6625e184a44a50d0fe084a0c0cb9e0420a078566cd9"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250920213557_add_user_feed/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250920213557_add_user_feed/migration.sql",
+      "sha256": "32f7d374b5149281a312a8a42104fa6fb2cb4719d748c2a40277fa9d702a4628"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250920215413_add_last_notified_at/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250920215413_add_last_notified_at/migration.sql",
+      "sha256": "c72b53a43aaa2f66506c1398400963001cf6de6dd3fc63004237cdd90ebec7fd"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20250922000310_add_user_kv/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20250922000310_add_user_kv/migration.sql",
+      "sha256": "a3c4cb836188ee2a89a716e2f2b5812967fb00baf4d64c7e1af9eb57eb7fb793"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20260407053500_add_voice_conversation/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20260407053500_add_voice_conversation/migration.sql",
+      "sha256": "95355c15dec760d5850faf7761c516fdb2aaf32f5aa2eed69726257fb1c13778"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20260611120000_add_projects/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20260611120000_add_projects/migration.sql",
+      "sha256": "4da7881c3de38f263be8fee924e9cf33610b3c54caa6eae794d24965ac140f14"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20260914090000_add_session_avatars/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20260914090000_add_session_avatars/migration.sql",
+      "sha256": "5d2965679a9884f3bf22fd10c7c245d160bc5563eb4505dd368bfbbb02e5e607"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/20261005170000_community_oauth/migration.sql",
+      "destination": "packages/kissopen-server/prisma/migrations/20261005170000_community_oauth/migration.sql",
+      "sha256": "b04bf6bfe8af757d3555ce643de05934ab0e1b5d7e94bba4f186bd9728d8399e"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/migrations/migration_lock.toml",
+      "destination": "packages/kissopen-server/prisma/migrations/migration_lock.toml",
+      "sha256": "99836963713b4f5b269ad49af0ed3d7b0b2e336115c2f92dc9ac683d139d0900"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/prisma/schema.prisma",
+      "destination": "packages/kissopen-server/prisma/schema.prisma",
+      "sha256": "dc5a154bedc7b6cc37698af395f25d3e9e755480ce248578915c2a409885602d"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/package.json",
+      "destination": "packages/kissopen-server/package.json",
+      "sha256": "f7e8ccd39e742f639b4afba911b9d829069e5b047d0c94c6d92dc3a89d14b2ef"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/tsconfig.json",
+      "destination": "packages/kissopen-server/tsconfig.json",
+      "sha256": "d84dcfc613e899b9a5abd41732dabfe064d785c83ba0f3d5e8fa06ee72daf94d"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/tsconfig.build.json",
+      "destination": "packages/kissopen-server/tsconfig.build.json",
+      "sha256": "49a9dae7153d0c2e6af8eb2b8313647bdd373c8c64a1c597695c393841c2d726"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server/vitest.config.ts",
+      "destination": "packages/kissopen-server/vitest.config.ts",
+      "sha256": "005261f885908f96fd21f0e6a5d7c6b2754d62b4913eb2abc42ee8f3c6a85302"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/src/communityAuth.ts",
+      "destination": "packages/kissopen-wire/src/communityAuth.ts",
+      "sha256": "afa6bae6a8e8a15340c5aa7013827a8240a5f2291bfc9853be804792fe076bbd"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/src/controlMessages.test.ts",
+      "destination": "packages/kissopen-wire/src/controlMessages.test.ts",
+      "sha256": "f4d5d8092b51cf0bdca70a0378a3da0d0bf17515c82887a8a49acdf9456063c5"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/src/controlMessages.ts",
+      "destination": "packages/kissopen-wire/src/controlMessages.ts",
+      "sha256": "dc793df4cf90d1065f09dbd6c54871114361da0881dd3347ce5c48c1dd3ed53d"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/src/index.ts",
+      "destination": "packages/kissopen-wire/src/index.ts",
+      "sha256": "458896cd2a6eb7429f243a50e195953354e63bd72aee5a7d51d99498b0fbcc63"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/src/legacyProtocol.ts",
+      "destination": "packages/kissopen-wire/src/legacyProtocol.ts",
+      "sha256": "161001afcae0b30db767192147242ccbefb061ebac3b0e23afdd4383a397d8b0"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/src/messageMeta.ts",
+      "destination": "packages/kissopen-wire/src/messageMeta.ts",
+      "sha256": "39562f4e9dc3b0e18129a09dc55b48d066e87a7494692935f7239f557ff81ee4"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/src/messages.test.ts",
+      "destination": "packages/kissopen-wire/src/messages.test.ts",
+      "sha256": "7056489bea29955f5ff4548c6878c03d349e8a7435913efb7aae1750e0562691"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/src/messages.ts",
+      "destination": "packages/kissopen-wire/src/messages.ts",
+      "sha256": "cc2846a331afe09466ded514c3e759db7a6d8a27cf0f2d6f0c5bf7664df08d38"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/src/rigMetadata.test.ts",
+      "destination": "packages/kissopen-wire/src/rigMetadata.test.ts",
+      "sha256": "176a6adeb4ae3182a079da4c4f97d1c0c5de90aedb488d0f8f6f0fa80b1e3bb6"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/src/rigMetadata.ts",
+      "destination": "packages/kissopen-wire/src/rigMetadata.ts",
+      "sha256": "b54666cecf634faa3e9a586e95f71497122450458efb67ebc96c0a1c617939c4"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/src/sessionProtocol.test.ts",
+      "destination": "packages/kissopen-wire/src/sessionProtocol.test.ts",
+      "sha256": "12073f62bead82b08b920588155cbf7fcab0a6778d6d17dd4935cc1109e3190e"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/src/sessionProtocol.ts",
+      "destination": "packages/kissopen-wire/src/sessionProtocol.ts",
+      "sha256": "6275298f524874fd435d77f8e7f462dc76200ca68b11e40c191ba7e9f4b678b2"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/src/voice.ts",
+      "destination": "packages/kissopen-wire/src/voice.ts",
+      "sha256": "dfc054b92430a09e82174a46e68929e5b8eb0adb1f8d4d79d70644ca46785041"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/package.json",
+      "destination": "packages/kissopen-wire/package.json",
+      "sha256": "03c7bf8c390bcb914ec79f1c6932d434deffc2b71c42d67451df331b739e1355"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/tsconfig.json",
+      "destination": "packages/kissopen-wire/tsconfig.json",
+      "sha256": "0cffdd501bdf95184d564ca01efded8aa0984fef197824f5b85c2cc83f74fde4"
+    },
+    {
+      "source": "kissopen/packages/kissopen-wire/vitest.config.ts",
+      "destination": "packages/kissopen-wire/vitest.config.ts",
+      "sha256": "9b22c025e8f322f1c63dfbda1fc47f741ac706906eac556715d6dacc6da8b979"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server-self-host/bin/kissopen-server.cjs",
+      "destination": "packages/kissopen-server-self-host/bin/kissopen-server.cjs",
+      "sha256": "04dff3b41cc23de206e4f9754b2b115bc705f3ce3c38c969cb85473126de30a8"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server-self-host/index.cjs",
+      "destination": "packages/kissopen-server-self-host/index.cjs",
+      "sha256": "24a028b5bbbb3dac7abb904f39eaf331b54cb4c66b15dcd4ff5400e64864790f"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server-self-host/package.json",
+      "destination": "packages/kissopen-server-self-host/package.json",
+      "sha256": "d0763d470f35597e8a036f42467e7f1bbd0cbd06921d5b4ae219c08c188b8d96"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server-self-host/scripts/build-runtime.cjs",
+      "destination": "packages/kissopen-server-self-host/scripts/build-runtime.cjs",
+      "sha256": "154ba1e0ddea5aed02cab2beaeb47a83e215c64bf258ec263e6c8b4702e825d2"
+    },
+    {
+      "source": "kissopen/packages/kissopen-server-self-host/scripts/postinstall.cjs",
+      "destination": "packages/kissopen-server-self-host/scripts/postinstall.cjs",
+      "sha256": "5d36696d07e97659d6487a53f9a86d7abddef9d3f5046afa09d78c40774a4e57"
+    },
+    {
+      "source": "kissopen/LICENSE",
+      "destination": "LICENSE",
+      "sha256": "e251d0448ef3ce023c20ebac9b90a7d8642b1434825838247d6e457668eb3e00"
+    },
+    {
+      "source": "kissopen/packages/kissopen-sync/sources/apiTypes.ts",
+      "destination": "packages/kissopen-server/sources/test-contract/apiTypes.ts",
+      "sha256": "6e3b8e580b8c80696f49525bc3ff954a52b54d38b7f733d68f50e0fbaea3b7e0"
+    },
+    {
+      "source": "kissopen/packages/kissopen-sync/sources/profile.ts",
+      "destination": "packages/kissopen-server/sources/test-contract/profile.ts",
+      "sha256": "39c7be903ea827bbf35262be27f4fd6f98963a1a7ac21e8883453f58a5b48328"
+    },
+    {
+      "source": "kissopen/packages/kissopen-sync/sources/friendTypes.ts",
+      "destination": "packages/kissopen-server/sources/test-contract/friendTypes.ts",
+      "sha256": "7546ab8926ce1fa9092f02606ea529c93521971fc1a2ca436154808d505e501e"
+    },
+    {
+      "source": "kissopen/packages/kissopen-sync/sources/feedTypes.ts",
+      "destination": "packages/kissopen-server/sources/test-contract/feedTypes.ts",
+      "sha256": "0d1c5a420240502f006252324e80446deb2b411e8a3fe9a7f60399e3f28f5970"
+    },
+    {
+      "source": "kissopen/packages/kissopen-sync/sources/sessionAvatarTypes.ts",
+      "destination": "packages/kissopen-server/sources/test-contract/sessionAvatarTypes.ts",
+      "sha256": "5f092db02e913cd429130a8b68139703ac38c581c5603f9784a0f26727202b7b"
+    },
+    {
+      "source": "account-service/go.mod",
+      "destination": "accounts/go.mod",
+      "sha256": "14cf37528d39371bfb980b364ac3db19d442b2f3d724b3d9f6de8b0502e6516f"
+    },
+    {
+      "source": "account-service/go.sum",
+      "destination": "accounts/go.sum",
+      "sha256": "4eb9ec3d7f344dd3f882b535dafe79b1851320140c81689073aacb155a4a47e4"
+    }
+  ],
+  "excluded": [
+    "runtime secrets and data",
+    "commercial Git history",
+    "cloud Agent execution",
+    "billing and payments",
+    "boards",
+    "cloud scheduling"
+  ],
+  "sourceBaselineCommit": "958889dc596423906f77617cb85823540297912b",
+  "accountSourceInputs": [
+    {
+      "source": "account-service/internal/app/server.go",
+      "sha256": "2b88d703a75156cd97c0da01a6552aa851a1fb143158bffce9a214e34257e44b"
+    },
+    {
+      "source": "account-service/internal/app/store.go",
+      "sha256": "3d354af7a22062656b0ca334c1db5bf2201f6df00ef0e3170a6b62ffa3fa24c9"
+    },
+    {
+      "source": "account-service/internal/app/blobs.go",
+      "sha256": "f103fe416c8442521ca83ba77a96b57c7058377cce1f07ed2af7398daefae6d9"
+    },
+    {
+      "source": "account-service/internal/app/community.go",
+      "sha256": "0f8bdc72b07bdb9635907a488fde1fbdeaab70f941b1c7aa472a15d7b3c669e6"
+    },
+    {
+      "source": "account-service/internal/app/profile.go",
+      "sha256": "5431e3a3bc3b5f13179defce894bf05ea6e30e2ba1aa6ad47e463a50a9e13016"
+    },
+    {
+      "source": "account-service/internal/app/themes.go",
+      "sha256": "5fcf2f5dcca6c2c569d361cb2adca8519b42088c71efdfdaa7c21afc81262f28"
+    },
+    {
+      "source": "account-service/internal/app/images.go",
+      "sha256": "c525f094bc6b51086323ed5481ca2ef203467fbbc5ddc6f85333536b2e1d75d9"
+    },
+    {
+      "source": "account-service/internal/app/home.go",
+      "sha256": "d3af23d6bfd9ce2d900f1a928fedc22ce0f334a16ccfe793efbac1e1ad2ec2f1"
+    },
+    {
+      "source": "account-service/internal/app/wire.go",
+      "sha256": "ea5824ef3836e9ba5783259f517b071e158cfb6ab52e6f109290c83a9a70670b"
+    },
+    {
+      "source": "account-service/internal/app/worker.go",
+      "sha256": "453aea25a69451ec743009fa61a6d2bcdaebe767b2bd44e01c339f0dd10016a7"
+    },
+    {
+      "source": "account-service/internal/app/cloud.go",
+      "sha256": "e17a17887c42f16d6a649e714f45d762c813d10b332046fcfa0cb25358ce2c64"
+    },
+    {
+      "source": "account-service/internal/app/workspace.go",
+      "sha256": "b896d4ed574f73aa712bc3fd882a42fb7e150a7e73934ae894b837e902ed2bdb"
+    },
+    {
+      "source": "account-service/internal/app/admin.go",
+      "sha256": "fde0d4344934c4b73e73741b90cddcda59f65a1d51e7cbf4d3ddb54f1505c999"
+    },
+    {
+      "source": "account-service/internal/app/admin_themes.go",
+      "sha256": "cff96c6e26d1ec43af4139fb7e21c39bd021b41ec3ee2ee6e18791dbea40e8cf"
+    }
+  ],
+  "components": [
+    "encrypted OAuth/device relay",
+    "shared wire protocol",
+    "standalone runtime",
+    "local-Agent-only account API"
+  ],
+  "commercialHandlersRemoved": true,
+  "originalProductTreeRetained": true,
+  "liveServicesChanged": true,
+  "deployment": {
+    "date": "2026-10-06",
+    "release": "20261006T060936Z-independent-server",
+    "domain": "kissopen.com",
+    "schemaClonePostgresSmoke": true,
+    "existingRelayCloneSmoke": true,
+    "configurationAndProfilePreserved": true,
+    "publicEndpointVerification": true,
+    "publicTLSWebSocketHandshake": true,
+    "desktopRestarted": false
+  },
+  "verification": {
+    "build": true,
+    "typecheck": true,
+    "wireTests": 26,
+    "relayTests": 129,
+    "accountTestGroups": 6,
+    "goVet": true,
+    "freshAndRepeatSchema": true,
+    "standaloneStartup": true
+  },
+  "releaseBlockers": [
+    "Real OAuth/client end-to-end verification",
+    "Dependency security advisories",
+    "Human source/license/security review"
+  ]
+}

@@ -1,0 +1,28 @@
+# TLS belongs to the operator. Include these locations in an HTTPS server block.
+location /api/ {
+    proxy_pass http://127.0.0.1:8081;
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    client_max_body_size 5m;
+}
+location = /healthz {
+    proxy_pass http://127.0.0.1:8081;
+}
+location /v1/updates/ {
+    proxy_pass http://127.0.0.1:3005;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
+    proxy_set_header Host $host;
+    proxy_read_timeout 300s;
+}
+location /downloads/plugins/icons/ {
+    alias /var/lib/kissopen/plugin-catalog/icons/;
+    autoindex off;
+    add_header X-Content-Type-Options nosniff always;
+}
+location / {
+    proxy_pass http://127.0.0.1:3005;
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-Proto $scheme;
+}

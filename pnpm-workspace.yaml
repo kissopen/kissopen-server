@@ -1,0 +1,10 @@
+packages:
+  - packages/kissopen-server
+  - packages/kissopen-wire
+  - packages/kissopen-server-self-host
+onlyBuiltDependencies:
+  - '@prisma/client'
+  - '@prisma/engines'
+  - esbuild
+  - prisma
+  - sharp
