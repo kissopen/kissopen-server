@@ -15,7 +15,7 @@ Release identifier: `20261006T071832Z-account-security`.
   account identities and workspace encryption keys were preserved.
 - Production web export was rebuilt with the existing HTTPS relay/account
   origin. Existing `.well-known` and separately hosted plugin assets remain.
-- No cloud Agent, commercial billing or cloud scheduler was enabled.
+- Activation was limited to the account API and relay services.
 
 ## Backup, staging and activation
 

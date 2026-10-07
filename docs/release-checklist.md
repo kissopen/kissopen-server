@@ -1,6 +1,6 @@
 # Public release gate
 
-- [ ] Create the public repository only after explicit owner approval; no commercial Git history.
+- [ ] Publish source only after explicit owner approval and source/secret review.
 - [ ] Review MIT notices, all dependency licenses and each separately distributed plugin license.
 - [ ] Run `pnpm audit:source` hygiene checks and `pnpm audit` dependency checks; independently review secrets and security.
 - [ ] Run a clean frozen-lockfile install, build, typecheck, server tests and Go vet.
@@ -10,8 +10,8 @@
 - [ ] Verify mobile device pairing, encrypted attachments and local-Agent RPC across two devices.
 - [ ] Verify offline behavior; no claims of offline remote file access without cached content.
 - [ ] Check external PostgreSQL and fresh/restored PGlite migrations and backup recovery.
-- [ ] Confirm billing/model/cloud-workspace/dashboard/schedule APIs remain absent.
-- [ ] Deploy only on separate explicit instruction; switching live data is not part of extraction.
+- [ ] Confirm exposed API routes match the documented account and relay capabilities.
+- [ ] Deploy only on separate explicit instruction, after backup and migration review.
 
 `EXTRACTION.json.releaseReady` stays false until the public release gate has
 been completed. Local compilation and unit tests alone do not mark it ready.

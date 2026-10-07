@@ -1,6 +1,6 @@
 # Self-hosting
 
-This is a two-service deployment, not a cloud Agent installation.
+KissOpen Server runs as two services: the account API and the encrypted relay.
 
 ## Public proxy
 
@@ -39,8 +39,8 @@ that database's privileges. Point `CN_DATABASE` to it. Relay PGlite and encrypte
 attachments live below `DATA_DIR`; account avatars/theme images live below
 `CN_IMAGE_DIR`. Stop the relay before copying its PGlite directory for a backup;
 use PostgreSQL's supported backup tooling for accounts. Retain the secrets needed
-to restore a backup separately from source exports. Never copy a database from
-the commercial product to a public repository.
+to restore a backup separately from source exports. Never commit databases or
+runtime data to a public repository.
 
 Environment files are not implicitly sourced by `pnpm`. Inject settings with
 your service manager. For local development only, change modes to development,
@@ -69,8 +69,7 @@ Set `KISSOPEN_PLUGIN_CATALOG` to a separately prepared catalog containing
 `index.json`, `details/`, `icons/` and the archives named by the index. Serve
 its public icons at `/downloads/plugins/icons/` without exposing private env
 files. Authenticated archive downloads verify SHA-256 before returning bytes.
-Clients install and execute plugins on their local Agent. The server provides
-no installation RPC into a cloud workspace.
+Clients install and execute plugins on their local Agent.
 
 To serve the mobile/web client, build it in the client repository against your
 origin, then provide only the export directory using `KISSOPEN_STATIC_DIR`.
@@ -81,7 +80,7 @@ The server repository does not need a sibling checkout to build or run.
 First verify both services against a disposable database and perform a backup.
 Apply relay migrations with `pnpm relay:migrate` while the relay is stopped.
 The account service applies additive account/theme schema statements at startup
-under a database advisory lock. Do not run legacy commercial workers alongside
-this account binary. Compare old/new API payloads and authenticate with a test
-account before switching the proxy. Keep the previous build/data backup for
-rollback; do not delete legacy tables as part of extraction.
+under a database advisory lock. Run only workers supported by this deployment
+alongside the account binary. Compare old/new API payloads and authenticate
+with a test account before switching the proxy. Keep the previous build/data backup for
+rollback; do not delete existing tables during an upgrade.

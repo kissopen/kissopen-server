@@ -21,14 +21,14 @@ shared `node_modules`:
 
 - Node wire/server typechecks and runtime bundle build; Go account binary build.
 - 26 wire tests and 129 relay tests.
-- Six account test groups (including subcases): removed commercial APIs,
+- Six account test groups (including subcases): account API boundaries,
   capability flags, anonymous access, origin checks, config validation and upload/catalog limits.
 - Go vet.
 - Fresh and repeated relay migrations, additive account/theme/admin SQL checks,
   standalone startup, anonymous account endpoint rejection and empty provider list.
 - Real relay database encryption-key sign-in, machine creation and isolation between two fresh test accounts.
 - Source hygiene scan: no detected private environment files, private keys,
-  commercial deployment hosts or operator home paths in the exported source.
+  legacy deployment hosts or operator home paths in the exported source.
 
 This is not a completed production or OAuth acceptance test. Google/GitHub/
 NodeLoc sign-in, authenticated account CRUD on a real PostgreSQL server, native

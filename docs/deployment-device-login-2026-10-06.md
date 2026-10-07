@@ -39,8 +39,9 @@ an existing device holding the matching seed; no success is claimed for that
 real-account end-to-end recovery yet. The web client was also refreshed with
 the final legacy-key migration implementation.
 
-No commercial database, account credentials, cloud Agent or scheduler was copied
-or enabled. No Git push, App Store or public native release was made.
+The deployment preserved existing independent account data and credentials.
+Only the account/relay and client components described above were activated.
+No Git push, App Store or public native release was made.
 
 Rollback retains the previous relay release `20261006T071832Z-account-security`.
 Stop the relay before changing its symlink. Keep the additive table and account

@@ -27,8 +27,8 @@ actual relay polling path and nginx config validation passed. The public root
 Previous runtime releases remain for rollback. Stop services before reverting
 current symlinks; the additive migration can remain, but reverting does not undo
 the explicitly requested account reset. Backup restoration is a separate,
-scoped operation requiring care with any newer user data. No cloud Agent,
-commercial data transfer, Git push or desktop restart was performed.
+scoped operation requiring care with any newer user data. Activation was limited
+to workspace recovery. No Git push or desktop restart was performed.
 
 ## Follow-up: matching key migration and device connection
 

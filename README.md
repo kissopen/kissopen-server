@@ -1,21 +1,21 @@
 # KissOpen Server
 
-独立的 KissOpen 开源服务端，源码仓库为 https://github.com/kissopen/kissopen-server 。客户端在 [kissopen](https://github.com/kissopen/kissopen)，模型与工具执行在 [kissopen-agent](https://github.com/kissopen/kissopen-agent)；本仓库不包含二者的源码依赖，不包含商业仓库历史、线上配置、凭证或用户数据。本次公开源码不发布安装包、不部署服务，`releaseReady` 仍为 false。
+可自部署的 KissOpen 开源服务端，提供账号、加密同步、设备中继、个人资料、主题和插件目录。源码仓库为 https://github.com/kissopen/kissopen-server 。客户端在 [kissopen](https://github.com/kissopen/kissopen)，模型与工具执行在 [kissopen-agent](https://github.com/kissopen/kissopen-agent)。
 
-## 服务边界
+## 服务组成
 
-| 组件 | 职责 | 不负责 |
-| --- | --- | --- |
-| `packages/kissopen-server` | GitHub / Google / NodeLoc OAuth、设备配对、加密会话/项目同步、设备 RPC 中继、加密附件 | 云端模型调用、看板、收费 |
-| `accounts` | OAuth 身份对应的账号资料、头像、身份信息、主题保存/广场、只读插件目录和校验后的安装包下载 | 订阅、账单、点数、云端 Agent、云端任务调度 |
-| `packages/kissopen-wire` | 客户端与中继的公共协议类型 | UI、执行器 |
-| `packages/kissopen-server-self-host` | 可独立运行的 Node 中继打包壳 | 自动构建手机端或桌面端 |
+| 组件 | 职责 |
+| --- | --- |
+| `packages/kissopen-server` | GitHub / Google / NodeLoc OAuth、设备配对、加密会话/项目同步、设备 RPC 中继、加密附件 |
+| `accounts` | OAuth 身份对应的账号资料、头像、身份信息、主题保存/广场、只读插件目录和校验后的安装包下载 |
+| `packages/kissopen-wire` | 客户端与中继的公共协议类型 |
+| `packages/kissopen-server-self-host` | 可独立运行的 Node 中继打包壳 |
 
 聊天、模型、插件安装与启停、语义创建和调度定时任务均在用户自己的 Agent。手机访问本地资料库仍需要对应电脑在线；中继不因此变成一份明文云盘。桌面和手机使用同一账号登录后自动关联，不要求扫码。工作区密钥由中继账号服务以 AES-GCM 加密托管，新设备登录后自动恢复，无需旧设备在线。服务器具备恢复密钥的能力，因此不能宣称服务器无法解密的端到端加密。已有设备保管的旧密钥只能在匹配原绑定后迁入托管，不覆盖旧密钥或合并不同账号。
 
-账号服务兼容原有资料和主题记录，采用增量建表，不删除旧表；旧商业表不读取、不执行迁移。`/api/cloud/catalog` 是为了兼容已安装客户端保留的只读插件目录 URL，并不创建云端工作空间。`/api/workspace/*` 返回明确的升级提示，不再生成独立于社区账号的第二套工作区密钥。所有新客户端统一使用中继 `/v1/community/workspace/session`，数据库和服务器主密钥必须分别备份。
+账号服务兼容原有资料和主题记录，采用增量建表，保留已有数据。`/api/cloud/catalog` 是为了兼容已安装客户端保留的只读插件目录 URL。`/api/workspace/*` 返回明确的升级提示，不再生成独立于社区账号的第二套工作区密钥。所有新客户端统一使用中继 `/v1/community/workspace/session`，数据库和服务器主密钥必须分别备份。
 
-管理员仅由 `KISSOPEN_ADMIN_IDENTITIES` 的稳定身份白名单或现有 `admins` 记录授权，不会把首个注册用户变成管理员。保留用户封禁/会话撤销、主题审核及操作审计 API；没有复制商业后台界面或模型/套餐管理接口。
+管理员仅由 `KISSOPEN_ADMIN_IDENTITIES` 的稳定身份白名单或现有 `admins` 记录授权，不会把首个注册用户变成管理员。管理 API 支持用户封禁、会话撤销、主题审核及操作审计。
 
 ## 本地构建
 
@@ -39,9 +39,9 @@ pnpm smoke
 
 ## 发布边界
 
-包暂时设置 `private: true`，没有自动发布或生产部署脚本。现有产品仓库和线上进程仍使用原来的源码快照，本次拆分不自动切换它们；先通过兼容验证，再另行部署。复制源码不等于迁移数据库。
+包暂时设置 `private: true`。构建、源码发布和生产部署是独立步骤；部署前须完成兼容验证、数据备份和迁移检查。
 
-插件目录的 51 个现有包没有从线上目录或商业部署拷进 Git。目录可挂载独立数据目录，但第三方插件包须逐项核对再分发。源码公开不代表已完成依赖许可证、OAuth 配置和安全审计的正式发行检查；自动扫描并不构成完整安全审计。详见 `docs/release-checklist.md`。
+插件目录通过独立数据目录挂载，第三方插件包须逐项核对许可证再分发。源码公开不代表已完成依赖许可证、OAuth 配置和安全审计的正式发行检查；自动扫描并不构成完整安全审计。`releaseReady` 仍为 false，详见 `docs/release-checklist.md`。
 
 验证结果和未关闭的依赖安全告警见 `docs/verification.md`。2026-10-06 已经授权部署到现有站点，部署记录见 `docs/deployment-2026-10-06.md`；这不代表源码公开发布审查已经完成。
 
